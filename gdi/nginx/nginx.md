@@ -41,6 +41,8 @@ receivers:
     type: collectd/nginx
     ...  # Additional config
 ```
+Your change 
+
 
 To complete the monitor activation, you must also include the `smartagent/nginx` receiver item in a `metrics` pipeline. To do this, add the receiver item to the `service` > `pipelines` > `metrics` > `receivers` section of your configuration file. For example:
 
